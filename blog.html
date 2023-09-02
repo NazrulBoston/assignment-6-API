@@ -9,8 +9,44 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <h1>This is about blog</h1>
+<body class="w-9/12 mx-auto mt-4">
+    <section>
+        <div class="bg-sky-200 p-4 rounded mb-4">
+            <p class="font-bold">Discuss the scope of var,let, and const</p>
+            <p> var is a global scope. Variable declare with var are
+                hoisted to
+                the top of the containing function or global scope,
+                which mean you can use them before they are declared.
+                var can be reassigned and updated. Developer should not use the var anymore instead they can use let or
+                const.
+            </p> let has block-level scope, which means it is scoped to the nearest enclosing block. A block in
+            JavaScript involves opening and closing curly braces. let variables that can be reassigned another value.
+            <p>
+                <span class="font-semibold text-lg">const:</span> const also has block-level scope, similar to let.
+                Variables declared with const cannot be reassigned. They are constant and must be assigned a value when
+                declared
+            </p>
+        </div>
+
+        <div class="bg-sky-200 p-4 rounded mb-8">
+            <p class="font-bold">Tell us the use cases of null and undefined</p>
+            <p>
+                <span class="font-semibold text-lg">null:</span> null is an assigned value. It means nothing.
+            </p>
+            <p>
+                <span class="font-semibold text-lg">undefined:</span> undefined means a variable has been declared but not defined yet.
+            </p>
+        </div>
+
+        <div class="bg-sky-200 p-4 rounded">
+            <p class="font-bold">What do you mean by REST API?</p>
+            <p>
+                <span class="font-semibold text-lg">REST API:</span> A safe online information exchange between two computer systems is made possible by the RESTful API. To complete a variety of activities, the majority of business applications must exchange data with other internal and external programs.
+            </p>
+            
+        </div>
+       
+    </section>
 
 </body>
 
